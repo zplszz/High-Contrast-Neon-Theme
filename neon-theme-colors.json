@@ -13,7 +13,12 @@
 		"ports.iconRunningProcessForeground": "#ffffff",
 		"selection.background": "#008000",
 		"sideBarTitle.foreground": "#ffffff",
-		"statusBarItem.remoteBackground": "#00000000"
+		"statusBarItem.remoteBackground": "#00000000",
+		"textCodeBlock.background": "#1a1a1a",
+		"textBlockQuote.background": "#0a0a0a",
+		"textBlockQuote.border": "#00ffff",
+		"textLink.foreground": "#00FF88",
+		"textPreformat.foreground": "#909bff",
 	},
 	"tokenColors": [
 		{
@@ -296,6 +301,12 @@
 			}
 		},
 		{
+			"scope": "keyword.control.return",
+			"settings": {
+				"foreground": "#7107ebf6"
+			}
+		},
+		{
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#D4D4D4"
@@ -399,6 +410,31 @@
 		},
 		{
 			"scope": [
+				"entity.name.type.class.templated.cpp"
+			],
+			"settings": {
+				"foreground": "#6284c4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.modifier.access.control"
+			],
+			"settings": {
+				"foreground": "#5b9ef5"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.modifier.constexpr"
+			],
+			"settings": {
+				"foreground": "#21299c"
+			}
+		},
+		{
+			"scope": [
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
 				"support.constant.math",
@@ -421,7 +457,7 @@
 				"keyword.other.operator"
 			],
 			"settings": {
-				"foreground": "#8400ff",
+				"foreground": "#ea00ff",
 				"fontStyle": "bold"
 			}
 		},
@@ -507,6 +543,22 @@
 			],
 			"settings": {
 				"foreground": "#FF69B4"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.property",
+			],
+			"settings": {
+				"foreground": "#3f81fc"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#3de8ff"
 			}
 		}
 	]
