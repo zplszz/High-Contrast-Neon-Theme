@@ -173,6 +173,14 @@
 			}
 		},
 		{
+			"scope": ["markup.inline.raw",
+					  "markup.inline.raw.string.markdown",
+					  "markup.fenced_code.block.markdown"],
+			"settings": {
+				"foreground": "#00E5FF"
+			}
+		},
+		{
 			"scope": [
 				"punctuation.definition.tag"
 			],

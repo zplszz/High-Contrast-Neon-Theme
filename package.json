@@ -2,8 +2,9 @@
   "name": "high-contrast-neon-theme",
   "displayName": "High Contrast Neon Theme",
   "description": "A high contrast cyberpunk-style neon color theme for VSCode",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "publisher": "zpl",
+  "repository": "https://github.com/zplszz/High-Contrast-Neon-Theme",
   "engines": {
     "vscode": "^1.0.0"
   },
